@@ -54,12 +54,18 @@ header {
 }
 
 .active {
-    background-image: linear-gradient(to bottom right, rgba(255, 255, 0, 0.263), orange, rgb(255, 0, 0), rgb(150, 6, 150), rgb(0, 0, 255));
-    transition: all 1s;
+    background-image: linear-gradient(to bottom right, rgba(255, 200, 0, 0.263), orange, rgb(255, 0, 0), rgb(150, 6, 150), rgb(0, 0, 255));
+    transition: all 10s;
 }
 
 .active:hover {
     background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.885), rgba(255, 0, 0, 0.879), rgba(255, 255, 0, 0.952));
+    transform: scale(1.2);
+}
+
+.btn-calc button:hover,
+.Homework-item:hover {
+    transform: scale(1.2);
 }
 
 .active a i,
